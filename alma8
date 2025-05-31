@@ -1,0 +1,5 @@
+sudo dnf update -y;
+dnf -y install wget tar gzip;
+wget -N http://files.virtualizor.com/install.sh;
+chmod 0755 install.sh;
+./install.sh email=minhtu@megahost.vn kernel=kvm;
